@@ -1,0 +1,13 @@
+b.headline{
+    color: green; font-size: 22px; font-family: arial;text-decoration: underline;
+}
+.xlink{
+    cursor: crosshair; color: cyan;
+}
+.hlink{
+    cursor: help; color: purple;
+}
+A:link{text-decoration: none; color: green;}
+A:visited{text-decoration: none; color: yellow;}
+A:active{text-decoration: none; color: blue;}
+A:hover{text-decoration: none; color: red;}

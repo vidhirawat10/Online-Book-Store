@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>PHONE NUMBER VALIDATION</title>
+        <script language="javascript">
+            function phone(){
+                var ph = f.ph.value;
+                if(ph.length==10){
+                    if(isNan(ph))
+                    alert("It is not a valid Phone Number");
+                    else
+                    alert("It is a valid Phone Number");
+                }
+                else
+                alert("Please enter a valid Phone Number");
+            }
+        </script>
+    </head>
+    <body>
+        <form name = "f">
+            <table align = "center"><br><br><br><br>
+            <h2 align="center">PHONE NUMBER VALIDATION</h2>
+        <br>
+    <tr>
+        <td align ="right">PHONE NO:</td>
+        <td align="left"><input type="text"maxlength="15"size="30"name="ph"></td>
+    </tr><tr><td></td>
+    <td><input type="button"value="SUBMIT"onClick="phno()"/></td></tr></table>
+        </form>
+    </body>
+</html>
