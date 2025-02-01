@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.table-container {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th:nth-child(1), td:nth-child(1) {
+  background-color: yellow;
+}
+
+th:nth-child(2), td:nth-child(2) {
+  background-color: red;
+}
+
+th:nth-child(3), td:nth-child(3) {
+  background-color: green;
+}
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Branch</th>
+        </tr>
+        <tr>
+          <td>RAM</td>
+          <td>23</td>
+          <td>CSE</td>
+        </tr>
+        <tr>
+          <td>SITA</td>
+          <td>22</td>
+          <td>IT</td>
+        </tr>
+      </table>
+</body>
+</html>
